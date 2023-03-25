@@ -6,11 +6,13 @@
 	"author": "lisanfu <874359874@qq.com>",
 	"license": "MIT",
 	"scripts": {
-    "prepare": "husky install",
+		"prepare": "husky install",
 		"eslint": "npx eslint --ext .js src",
 		"eslint:fix": "npx eslint --fix --ext .js src"
 	},
 	"devDependencies": {
+		"@commitlint/config-conventional": "^17.4.4",
+		"commitlint": "^17.5.0",
 		"eslint": "^8.36.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"husky": "^8.0.3",
