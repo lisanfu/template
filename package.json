@@ -1,12 +1,12 @@
 {
 	"name": "template",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"main": "index.js",
 	"repository": "git@github.com:lisanfu/template.git",
 	"author": "lisanfu <874359874@qq.com>",
 	"license": "MIT",
 	"scripts": {
-    "release": "standard-version",
+		"release": "standard-version",
 		"commit": "git-cz",
 		"prepare": "husky install",
 		"eslint": "npx eslint --ext .js src",
@@ -30,7 +30,7 @@
 	},
 	"config": {
 		"commitizen": {
-      "path": "./node_modules/cz-customizable"
+			"path": "./node_modules/cz-customizable"
 		}
 	}
 }
