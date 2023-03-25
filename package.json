@@ -6,6 +6,7 @@
 	"author": "lisanfu <874359874@qq.com>",
 	"license": "MIT",
 	"scripts": {
+    "release": "standard-version",
 		"commit": "git-cz",
 		"prepare": "husky install",
 		"eslint": "npx eslint --ext .js src",
