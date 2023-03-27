@@ -6,6 +6,7 @@
 	"author": "lisanfu <874359874@qq.com>",
 	"license": "MIT",
 	"scripts": {
+    "build": "webpack",
 		"test": "jest",
 		"release": "standard-version",
 		"commit": "git-cz",
@@ -23,7 +24,9 @@
 		"eslint-plugin-prettier": "^4.2.1",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.0",
-		"prettier": "^2.8.7"
+		"prettier": "^2.8.7",
+		"webpack": "^5.76.3",
+		"webpack-cli": "^5.0.1"
 	},
 	"dependencies": {
 		"commitlint-config-cz": "^0.13.3",
